@@ -1,0 +1,26 @@
+.corefeaturesection {
+    background-size: 100% 100%;
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+}
+.moveImage {
+    animation: 20s infinite linear moveImage;
+}
+
+@keyframes moveImage {
+    0%{
+        top:0;
+    }
+    50% {
+        top: -50%;
+    }
+    100% {
+        top: -100%;
+    }
+}
+
+.ctaSection {
+    background-size: 100% 100%;
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+}
